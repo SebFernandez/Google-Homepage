@@ -1,0 +1,259 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+a   {
+    font-size: 15px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.h-box  {
+    background-attachment: scroll;
+    height: 40px;
+    margin-top: 2%;
+}
+
+.h-left {
+    margin-left: 1%;
+    float: left;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.h-right    {
+    margin-right: 1%;
+    float: right;
+}
+
+#h-element  {
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+#h-element:hover {
+    text-decoration: underline;
+}
+
+#h-rare-icon    {
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px -38px;
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    margin-top: 2px;
+    text-decoration: rgb(0, 0, 0);
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-thickness: auto;
+    opacity: 0.55;
+}
+
+#button-login   {
+    background-color: #4387fd;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 7px 7px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+main    {
+    background-attachment: scroll;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+}
+
+.m-box-logo-text  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.m-box-image    {
+    width: 550px;
+    height: 220px;
+}
+
+.m-box-buttons  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#g-button   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-right: 1%;
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+#g-button:hover   {
+    border-color: #fd4343;
+}
+
+#lucky-button   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-left: 1%;
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+#lucky-button:hover   {
+    border-color: #fd4343;
+}
+
+#search {
+    background-image: url("https://camtredoux.github.io/search-24px.svg");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-top: 10px;
+    width: 482px;
+    height: 44px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-color: rgb(223, 225, 229);
+    border-right-color: rgb(223, 225, 229);
+    border-left-color: rgb(223, 225, 229);
+    border-bottom-color: rgb(223, 225, 229);
+    border-width: 1px;
+    border-style: solid;
+    z-index: 3;
+}
+
+#search:hover   {
+    border-color: #4387fd;
+}
+
+#search:focus   {
+    border-color: #4387fd;
+}
+
+.m-box-offer    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+.m-offer    {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.m-offer:hover   {
+    text-decoration: underline;
+}
+
+footer  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.f-box  {
+    background: #f2f2f2;
+    background-attachment: scroll;
+    border-top: 1px solid #e4e4e4;
+    height: 40px;
+}
+
+.f-left   {
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+}
+
+.f-left:hover   {
+    text-decoration: underline;
+}
+
+.f-right  {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+}
+
+.f-right:hover  {
+    text-decoration: underline;
+}
+
+
+/*
+
+.m-box-buttons  {
+    position: relative;
+    left: 20%;
+    right: 20%;
+}
+
+#g-button   {
+    margin-right: 20px;
+}
+
+#lucky-button   {
+    
+}
