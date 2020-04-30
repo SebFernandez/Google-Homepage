@@ -25,7 +25,7 @@ header {
 .h-box  {
     background-attachment: scroll;
     height: 40px;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .h-left {
@@ -219,7 +219,7 @@ footer  {
 .f-left   {
     float: left;
     margin-left: 2%;
-    margin-top: 1%;
+    margin-top: 11px;
     color: rgba(0, 0, 0, 0.54);
     text-decoration: none;
 }
@@ -231,28 +231,11 @@ footer  {
 .f-right  {
     float: right;
     margin-right: 2%;
-    margin-top: 1%;
+    margin-top: 11px;
     color: rgba(0, 0, 0, 0.54);
     text-decoration: none;
 }
 
 .f-right:hover  {
     text-decoration: underline;
-}
-
-
-/*
-
-.m-box-buttons  {
-    position: relative;
-    left: 20%;
-    right: 20%;
-}
-
-#g-button   {
-    margin-right: 20px;
-}
-
-#lucky-button   {
-    
 }
